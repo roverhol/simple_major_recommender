@@ -1,6 +1,6 @@
 # Major recommender (content-based, unsupervised)
 
-Starter code and sample data for a project-based introduction to unsupervised learning in which students build a content-based academic-major recommender*from public course catalog information. The pipeline uses word frequencies, pairwise similarity (Sørensen–Dice), hierarchical clustering, and a small interactive explorer.
+Starter code and sample data for a project-based introduction to unsupervised learning in which students build a content-based academic major recommender from public course catalog information. The pipeline uses word frequencies, pairwise similarity (Sørensen–Dice), hierarchical clustering, and a small interactive explorer.
 
 This repository is intended for instructors who want a concrete, end-to-end assignment students can relate to (choosing a major) while wrestling with evaluation without labels, design trade-offs, and ethics/transparency.
 
@@ -42,7 +42,7 @@ Full detail, NLTK setup, and folder layout: **`TUTORIAL_content_based_major_reco
 
 ## Adopting at another campus
 
-- **Data:** Supply your own CSVs under `course_descriptions_auto/` (see tutorial for format). Respect copyright, robots.txt, and site terms if you scrape; outside of the classroom, we prefer official exports or APIs where available. You can either modify my web scraping code to produce these CSVs or obtain them from a staff member with internal access to your university's course catalog database. 
+- **Data:** Supply your own CSVs under `course_descriptions_auto/` (see tutorial for format). You can either modify my web scraping code to produce these CSVs or obtain them from a staff member with internal access to your university's course catalog database. Respect copyright, robots.txt, and site terms if you scrape; outside of the context of a classroom demostration, it is better to use official exports or APIs where available.
 - **IRB / ethics:** Follow your institution’s rules for classroom activities and any use of student-generated evaluation data.
 - **Assignments:** Edit `PART1_INSTRUCTIONS.md`–`PART3_REPORT.md` for your own course needs.
 - **Review** the learning outcomes for supplemental lectures and labs I've provided from my class: it's possible your course already include all the topics needed but if not, then use mine examples to produce versions suitable for your class.
