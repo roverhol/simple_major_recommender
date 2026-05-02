@@ -1,0 +1,63 @@
+title,units,description
+MATH 102 - Algebra and Elementary Functions,4,"In-depth treatment of exponential, logarithmic, trigonometric, and polynomial functions."
+MATH 101 - College Algebra,3,"Topics include algebraic equations and inequalities; polynomial, rational, algebraic, exponential, and logarithmic functions; compositions and inverses; geometric transformations and properties of functions; difference quotients."
+BIOL 105 - Principles of Biology,4,"Fundamental processes of life. Structure and function of cells, genetics, evolution, and ecology."
+BIOL 255 - Marine Biology,3,"The study of life in marine environments (kelp beds, rocky shores, salt marshes, coral reefs, deep sea). Emphasis on marine organisms and the processes that structure marine communities and ecosystems, their productivity and conservation."
+BOT 105 - General Botany,4,"Structure, function, reproduction, life cycles, and phylogenetic relationships of major plant groups. Relationships of plants to other organisms and to human activities."
+CHEM 109 - General Chemistry I,5,"Fundamental concepts: chemical foundations, stoichiometry, chemical reactions, gases, thermochemistry, atomic theory, bonding, liquids, solutions. For students in science, engineering, and related majors."
+CHEM 110 - General Chemistry II,5,"Fundamental concepts: kinetics; equilibrium; acids and bases; acid-base, solubility, and complex ion equilibria; entropy and free energy; electrochemistry; qualitative analysis. For students in science, engineering, and related majors."
+OCN 109 - General Oceanography,3,"Extent of the oceans; chemical nature of sea water; causes/effects of currents, tides, and waves; animal and plant life in the sea; features of the ocean floor."
+OCN 109L - General Oceanography Laboratory,1,"Introductory laboratory activities to develop understanding of fundamental concepts from geological, chemical, physical, and biological oceanography and the inter-relationship between those concepts."
+OCN 260 - Sampling Techniques and Field Studies,1,"Introductory course for majors. Biological, chemical, geological, and physical oceanographic methods of sampling and analysis. Shipboard procedures and navigation."
+PHYX 106 - College Physics: Mechanics and Heat,4,"Non-Calculus, for science majors. Mechanics, fluids, heat, sound."
+STAT 109 - Introductory Biostatistics,4,"Descriptive statistics, probability, random variables, discrete and continuous distributions, confidence intervals, contingency tests, regression and correlation, tests of hypothesis, analysis of variance. Emphasis: methods and applications used in the biological and natural resource sciences."
+ZOOL 110 - Introductory Zoology,4,"Structure, function, evolution, and diversity of major groups of animals."
+MATH 105 - Calculus for the Biological Sciences and Natural Resources,3,"Differential and integral calculus. Apply to biological sciences, including exponential growth and decay."
+MATH 109 - Calculus I,4,"Limits, continuity, derivatives, integrals, and their applications."
+PHYX 107 - College Physics: Electromagnetism and Modern Physics,4,"Non-Calculus, for science majors. Geometric optics, electricity, magnetism, electromagnetic waves, AC circuits, physical optics, relativity."
+PHYX 118 - College Physics: Biological Applications,1,"Geometrical optics, simple DC circuits."
+CHEM 228 - Brief Organic Chemistry,4,"For majors in biological science/natural resource areas. Nomenclature, physical properties, synthesis, and reactions of compounds representing major functional group categories. Reaction mechanisms emphasized."
+BIOL 307 - Evolution,4,Properties and differentiation of populations. Population genetics; mechanisms of species formation; and macroevolution.
+BIOL 330 - Principles of Ecology,4,"Major ideas shaping modern ecology: population regulation, competition, predation, ecosystem energetics, mathematical models, and nutrient cycling. Role of biological and physical factors in developing community structure."
+BIOL 340 - Genetics,4,"Principles of heredity; nature and function of genetic material, with quantitative analyses; genetic constitution of populations."
+BOT 356 - Phycology,4,"Biology and evolution of photosynthetic eukaryotes. Marine algal ecology. Field trips, identification skills, micro- and macroalgal sampling, data analysis, scientific writing.
+Co-listed with: BOT 556. (Only one of the co-listed courses may be taken for credit. See Terminology for more information.)"
+FISH 310 - Ichthyology,4,"Biology of fishes and fishlike vertebrates. Anatomy/concepts of systematics of fishes; classifying fishes, particularly commercial, game, and forage species."
+ZOOL 314 - Invertebrate Zoology,5,"Comparative functional morphology, life histories, and phylogeny of invertebrates."
+BIOL 430 - Intertidal Ecology,3,"Ecological principles as applied in coastal marine habitats: rocky shores, sandy beaches, bay flats, and nearshore waters. Numerous field trips; one weekend trip. Individual and group studies a major part of lab work."
+OCN 310 - Biological Oceanography,4,"Physical, chemical, and biological factors characterizing the marine environment, including factors controlling plant and animal populations. Methods of sampling identification and analysis."
+BIOL 350 - Cell Biology,3,"Study of the structure and function of cells with emphases in biochemistry, molecular biology, and physiology, and methods used to address relevant questions in the field."
+BOT 310 - General Plant Physiology,4,"Plant growth, development, reproduction, metabolism, photosynthesis, soil/water relations, inorganic nutrition, and translocation. Quantitative analysis of physiological functions."
+FISH 311 - Fish Physiology,3,Physiology of lower vertebrate organ systems. Efficient management and culture of the animal as a renewable resource.
+ZOOL 310 - Animal Physiology,4,Comparative organ system physiology of animals. Adaptive strategies.
+BIOL 490 - Senior Thesis,1-2,Thesis based on student-designed project approved by advisor. Approval must occur before enrollment.
+BIOL 498 - Marine Biology Capstone Research,2,Independent research conducted under faculty supervision.
+BIOL 499 - Directed Study,1-2,"Individual work for senior students showing special aptitude. Conference, reading, research."
+REC 471 - Scientific Diving,3,"Development of the knowledge, skill, and experience to successfully plan and conduct underwater data collection. This course meets the standards of the American Academy of Underwater Sciences."
+BIOL 418 - Marine Microbiology,3,"Biology, behavior and function of microorganisms in diverse marine habitats, roles in ecological processes. Laboratory: isolation, molecular and ecological approaches to microbial processes."
+BOT 553 - Marine Macrophyte Ecology,3,"Ecology of marine algae and seagrasses. Lectures: from evolutionary ecology to diversity and ecosystem health. Labs: methods, student projects."
+FISH 335 - U.S. and World Fisheries,3,"Location of, and species taken in, commercial fisheries. Their importance to world food supply. Methods of harvest and products marketed. Economic problems of common property resources. Some weekend and after-hours field trips required."
+FISH 358 - Fisheries Data Analysis,4,"Introduction to quantitative fisheries methods including statistical methods, basic sampling and experimental design, and models for fish growth, recruitment, mortality, and population dynamics. Focus on applications and interpretation."
+FISH 375 - Mariculture,3,"Controlled spawning, cultivation, harvesting, processing, and marketing of marine and estuarine algae, invertebrates, and fishes. How laws and regulations, engineering, and economics affect culture on a worldwide basis. Culture of food items used in rearing marine and estuarine species. Lab requires after-hours time at marine lab."
+FISH 435 - Ecology of Marine Fish,4,"Environmental influences on life history, behavior, growth, and survival of marine and anadromous fishes. Some weekend and after-hours field trips."
+FISH 471 - Fish Diseases,3,"Prevent, diagnose, manage, and treat infectious and noninfectious fish diseases."
+FISH 474 - Conservation Genetics of Fish and Wildlife,4,"Application of molecular methods to conservation, management, ecology, and evolution of fish and wildlife."
+FISH 478 - Fisheries and Ecosystem Oceanography,3,"Introduction to how climate and oceanographic processes affect the dynamics of marine populations, ecosystems, and fisheries, and how oceanography informs management of marine ecosystems.
+Co-listed with: FISH 578. (Only one of the co-listed courses may be taken for credit. See Terminology for more information.)"
+FISH 578 - Fisheries and Ecosystem Oceanography,3,"Introduction to and directed study of how climate and oceanographic processes affect the dynamics of marine populations, ecosystems, and fisheries, and how oceanography informs management of marine ecosystems.
+Co-listed with: FISH 478. (Only one of the co-listed courses may be taken for credit. See Terminology for more information.)"
+FISH 558 - Fish Population Dynamics,4,"Theory and analysis of exploited fish populations. Meets jointly with FISH 458. Students in FISH 558 are expected to develop a fish populations dynamics case study and report findings to class.
+Co-listed with: FISH 458. (Only one of the co-listed courses may be taken for credit. See Terminology for more information.)"
+OCN 301 - Marine Ecosystems - Human Impact,3,"Relationships and interaction between humans and marine life. Living organisms: in history and legend, as food, and as industrial resource. Problems and aesthetic aspects of marine organisms."
+OCN 320 - Physical Oceanography,4,Physical properties and processes in seas: theory of distribution of variables; current determination; waves and tides.
+OCN 330 - Chemical Oceanography,4,Composition of seawater. Distribution and cycling of important major and minor chemical species throughout the oceans. Marine analytical chemistry.
+OCN 340 - Geological Oceanography,4,Classification/origin of major topographic features on ocean floor. First order plate tectonic theory. Recent marine sediments and sedimentary processes.
+OCN 410 - Zooplankton Ecology,3,"Identification, distribution, abundance, adaptations, and life histories of animals in the plankton. Techniques in field/lab studies."
+OCN 420 - Oceans and Climate,3,"Examines the role that oceans play in mediating global climate. Detailed exploration of ocean carbon cycle, consequences of climate change on ocean ecosystems, ocean-related climate feedback loops, and predictions of oceans of the future."
+STAT 333 - Linear Regression Models/ANOVA,4,"Linear regression, analysis of variance, and other linear models applied to experimental and observational studies. course emphasizes model formulation, assumptions, selection, and interpretation in both hypothesis-testing and descriptive contexts."
+STAT 404 - Multivariate Statistics,4,"Explore and model multivariate systems. Matrix algebra, correlation matrices, principal components, common factors, canonical correlation. Use and interpret computer-assisted analysis.
+Co-listed with: STAT 504. (Only one of the co-listed courses may be taken for credit. See Terminology for more information.)"
+STAT 410 - Modern Statistical Modeling,4,"Contemporary methods in statistics that provide tools for analyzing complex datasets: generalized linear modeling, model selection strategies, Bayesian statistical analysis and inference, mixed effects modeling, and ARIMA time series analysis.
+Co-listed with: STAT 510. (Only one of the co-listed courses may be taken for credit. See Terminology for more information.)"
+ZOOL 530 - Benthic Ecology,3,Sublittoral marine environment. Original literature on synecological investigations. Field/lab: detailed analysis of benthic communities.
+ZOOL 552 - Advanced Invertebrate Zoology,3,"Typically focuses either on a particular taxon (Crustacea, Mollusca) or special field (behavior, systematics, functional morphology, feeding strategies)."

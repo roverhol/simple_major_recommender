@@ -1,0 +1,53 @@
+title,units,description
+BIOL 105 - Principles of Biology,4,"Fundamental processes of life. Structure and function of cells, genetics, evolution, and ecology."
+BOT 105 - General Botany,4,"Structure, function, reproduction, life cycles, and phylogenetic relationships of major plant groups. Relationships of plants to other organisms and to human activities."
+CHEM 109 - General Chemistry I,5,"Fundamental concepts: chemical foundations, stoichiometry, chemical reactions, gases, thermochemistry, atomic theory, bonding, liquids, solutions. For students in science, engineering, and related majors."
+CHEM 110 - General Chemistry II,5,"Fundamental concepts: kinetics; equilibrium; acids and bases; acid-base, solubility, and complex ion equilibria; entropy and free energy; electrochemistry; qualitative analysis. For students in science, engineering, and related majors."
+CHEM 228 - Brief Organic Chemistry,4,"For majors in biological science/natural resource areas. Nomenclature, physical properties, synthesis, and reactions of compounds representing major functional group categories. Reaction mechanisms emphasized."
+PHYX 106 - College Physics: Mechanics and Heat,4,"Non-Calculus, for science majors. Mechanics, fluids, heat, sound."
+STAT 109 - Introductory Biostatistics,4,"Descriptive statistics, probability, random variables, discrete and continuous distributions, confidence intervals, contingency tests, regression and correlation, tests of hypothesis, analysis of variance. Emphasis: methods and applications used in the biological and natural resource sciences."
+ZOOL 110 - Introductory Zoology,4,"Structure, function, evolution, and diversity of major groups of animals."
+MATH 105 - Calculus for the Biological Sciences and Natural Resources,3,"Differential and integral calculus. Apply to biological sciences, including exponential growth and decay."
+MATH 109 - Calculus I,4,"Limits, continuity, derivatives, integrals, and their applications."
+PHYX 107 - College Physics: Electromagnetism and Modern Physics,4,"Non-Calculus, for science majors. Geometric optics, electricity, magnetism, electromagnetic waves, AC circuits, physical optics, relativity."
+PHYX 118 - College Physics: Biological Applications,1,"Geometrical optics, simple DC circuits."
+BIOL 307 - Evolution,4,Properties and differentiation of populations. Population genetics; mechanisms of species formation; and macroevolution.
+BIOL 330 - Principles of Ecology,4,"Major ideas shaping modern ecology: population regulation, competition, predation, ecosystem energetics, mathematical models, and nutrient cycling. Role of biological and physical factors in developing community structure."
+BIOL 340 - Genetics,4,"Principles of heredity; nature and function of genetic material, with quantitative analyses; genetic constitution of populations."
+BIOL 350 - Cell Biology,3,"Study of the structure and function of cells with emphases in biochemistry, molecular biology, and physiology, and methods used to address relevant questions in the field."
+ZOOL 310 - Animal Physiology,4,Comparative organ system physiology of animals. Adaptive strategies.
+ZOOL 370 - Comparative Anatomy of the Vertebrates,4,Anatomy of organs/systems of various vertebrate classes and cephalochordates. Evolutionary derivations; adaptive significance.
+ZOOL 430 - Comparative Animal Behavior,4,Vertebrates and invertebrates. Development of modern principles of ethology.
+ZOOL 476 - Principles of Animal Development,4,"Mechanisms of differentiation at molecular, cellular, and tissue levels. Descriptive morphology of embryonic development in invertebrate and vertebrate model organisms."
+ZOOL 314 - Invertebrate Zoology,5,"Comparative functional morphology, life histories, and phylogeny of invertebrates."
+ZOOL 316 - Freshwater Aquatic Invertebrates,3,"Identification, behavior, life history. Insects, crustaceans, mollusks."
+ZOOL 358 - General Entomology,4,"Classification, identification, anatomy, physiology, ecology, behavior, control of insects."
+FISH 310 - Ichthyology,4,"Biology of fishes and fishlike vertebrates. Anatomy/concepts of systematics of fishes; classifying fishes, particularly commercial, game, and forage species."
+WLDF 365 - Ornithology I,3,"Classification, life histories, ecology, behavior, and special adaptations of birds. Identification in field and lab."
+ZOOL 354 - Herpetology,4,"Biology, classification, anatomy, distribution, and life histories of amphibians and reptiles."
+ZOOL 356 - Mammalogy,3,"Comparative mammalian biology. Systematics, morphology, behavior, reproduction, physiology, ecology, zoogeography."
+BIOL 412 - General Microbiology,4,"Natural history and importance of bacteria, archaea, and viruses. Structure, growth, metabolism, genetics, taxonomy, diversity, pathogenesis, and applied aspects of microorganisms."
+BIOL 418 - Marine Microbiology,3,"Biology, behavior and function of microorganisms in diverse marine habitats, roles in ecological processes. Laboratory: isolation, molecular and ecological approaches to microbial processes."
+BIOL 433 - Microbial Ecology,3,"This course explores the biology, behavior, and function of microorganisms in natural environments with attention to their role in ecologically and environmentally significant processes. One weekend field-trip.
+Co-listed with: BIOL 533. (Only one of the co-listed courses may be taken for credit. See Terminology for more information.)"
+BIOL 433D - Microbial Ecology Discussion,1,"This discussion explores the biology, behavior, and function of microorganisms in natural environments (to be taken in conjunction with BIOL 433 lecture and lab).
+Co-listed with: BIOL 533D. (Only one of the co-listed courses may be taken for credit. See Terminology for more information.)"
+BIOL 440 - Molecular Genetics Lab,2,"Experiments in modern and classical genetics, using a variety of organisms."
+BIOL 450 - Cell Biology Laboratory,2,"Experiments in modern and classical cellular and molecular biology, cellular physiology, and biochemistry of cells using cell culture models."
+BIOL 490 - Senior Thesis,1-2,Thesis based on student-designed project approved by advisor. Approval must occur before enrollment.
+BIOL 499 - Directed Study,1-2,"Individual work for senior students showing special aptitude. Conference, reading, research."
+BIOL 554 - Plant/Animal Interactions,3,Current research in pollination biology and plant/herbivore relations. Critique journal articles.
+BIOL 564 - Transmission and Scanning Electron Microscopy,4,"Transmission and scanning electron microscopy theory and technique. Preparation of materials, operation of electron microscopes, conduct an EM-based independent research project utilizing both systems."
+BOT 350 - Plant Taxonomy,4,"Identify ferns, gymnosperms, and flowering plants. Recognize families and key plants in the local flora."
+CHEM 438 - Introductory Biochemistry,4,"Brief course in biochemistry. The chemistry of amino acids, proteins, nucleic acids, lipids and carbohydrates. Includes enzyme kinetics, bioenergetics, structure and function of biological membranes, discussion of common laboratory methods."
+FISH 380 - Techniques in Fishery Biology,3,"Overview of fishery research methods: sampling theory, collection gear, stock identification methods, age and growth, tagging, and estimation of population size."
+FISH 434 - Ecology of Freshwater Fish,4,"Distribution, diversity, and abundance of freshwater and anadromous fish. Covers evolution, life history strategies, behavior, physiology, and interactions between species, including relevance for conservation and management. Focus on local species, particularly Pacific salmon and trout."
+FISH 435 - Ecology of Marine Fish,4,"Environmental influences on life history, behavior, growth, and survival of marine and anadromous fishes. Some weekend and after-hours field trips."
+FISH 471 - Fish Diseases,3,"Prevent, diagnose, manage, and treat infectious and noninfectious fish diseases."
+FISH 474 - Conservation Genetics of Fish and Wildlife,4,"Application of molecular methods to conservation, management, ecology, and evolution of fish and wildlife."
+WLDF 450 - Principles of Wildlife Diseases,3,Role of disease in wildlife populations; host/ parasite relationships; strategies in controlling diseases.
+WLDF 460 - Conservation Biology,3,"Endangered species management, reserve design, conservation genetics, related concepts."
+ZOOL 325 - Advanced Behavioral Neuroscience,4,"Principles of behavioral neuroscience are reviewed, and then selected topics are covered in detail through lectures and reading original research articles. Required labs provide hands-on experience.
+Cross-listed with: PSYC 325"
+ZOOL 530 - Benthic Ecology,3,Sublittoral marine environment. Original literature on synecological investigations. Field/lab: detailed analysis of benthic communities.
+ZOOL 552 - Advanced Invertebrate Zoology,3,"Typically focuses either on a particular taxon (Crustacea, Mollusca) or special field (behavior, systematics, functional morphology, feeding strategies)."

@@ -1,0 +1,30 @@
+title,units,description
+CS 111 - Computer Science Foundations 1,4,"Introductory programming covering problem decomposition, control structures, simple data structures, testing, and documentation. Students design and implement a number of programs."
+CS 112 - Computer Science Foundations 2,4,"Object-oriented programming, focusing on classes, instances, methods, encapsulation, inheritance, overloading, multiple inheritance, and exception handling."
+CS 211 - Data Structures,4,"Introduction to classic data structures and algorithms. Performance comparisons, big-O notation, trade-offs, arrays, linked lists, recursion, sorting, stacks, queues, trees, graphs, and hash tables."
+CS 243 - Architecture,4,"Introduction to computer architecture including assembly language, computer arithmetic, performance measures, datapath, control, pipelining, and memory/storage design."
+STAT 108 - Elementary Statistics,3,"Rudimentary data collection, descriptive statistics of univariate and bivariate data, probability, random variables, discrete and continuous distributions. Foundational concepts of confidence intervals and hypothesis tests. Use and abuse of statistics."
+STAT 108I - Elementary Statistics with Integrated Support,3,"Introductory statistics with integrated support to aid comprehension. Data collection, descriptive statistics, bivariate data, probability, probability distributions. Foundational concepts of confidence intervals and hypothesis tests. Use and abuse of statistics. Open to students in Math placement category III or IV."
+MATH 109 - Calculus I,4,"Limits, continuity, derivatives, integrals, and their applications."
+MATH 105 - Calculus for the Biological Sciences and Natural Resources,3,"Differential and integral calculus. Apply to biological sciences, including exponential growth and decay."
+MATH 253 - Discrete Mathematics,3,"Sets, functions, relations, algorithms, induction, recursion, combinatorics, graphs, trees, and propositional logic."
+CS 312 - Algorithms,4,"Introduction to algorithmic thinking. Recurrences and solution techniques, fundamental algorithms including graph algorithms, algorithm design techniques, balanced trees, performance trade-offs."
+CS 325 - Database Design,4,"Introduction to database design and implementation. Relational model, entity-relationship model and diagrams, converting a model to a schema, elementary Structured Query Language (SQL), normalization."
+CS 328 - Web-Apps Using Databases,4,Building applications atop databases. N-tiered architecture; database tier: stored procedures/functions; presentation tier: web GUIs; application tier: controlling web-to-database interactions.
+CS 346 - Telecommunications and Networks,4,"Introduction to the fundamentals of telecommunication and to the structure, implementation, and theoretical underpinnings of computer networking."
+CS 374 - Operating Systems,4,"Introduction to operating systems with an emphasis on process synchronization and control. Synchronization, kernel structure, scheduling, deadlock, virtual and physical memory, file and I/O."
+CS 449 - Computer Security,4,"Introduction to central concepts of computer security on networked systems. Topics include threats, cryptography, authentication, operating systems in security, legal and privacy issues."
+CS 458 - Software Engineering,4,Introduction to software engineering principles and methodologies in the context of a semester-long software team project.
+CS 461 - Computational Models,4,"An introduction to the Chomsky hierarchy, automata, Church- Turing Thesis, computability, NP-completeness, and information theory."
+CS 232 - Python Programming,3,"Introduction to the Python language. Idiomatic language features such as lists, dictionaries, tuples, and sets. Use of Python classes and modules to accomplish complex tasks."
+CS 235 - Java Programming,3,"Object-oriented programming; event handling; abstract windowing toolkit applets, applications; Java database connectivity; applications programming interface and Java doc."
+CS 279 - Introduction to Linux,4,"Introduces the UNIX/Linux family of operating systems. Basic commands, utilities, system structures, scripting and tools are explored. Elements of system administration are presented."
+CS 280 - Selected Topics in Computing,1-3,"Special topics in computer science. Courses with this number have only freshman/sophomore prerequisites, excluding CS 243 and CS 312."
+CS 280L - Selected Topics in Computing,1-2,"Special topics in computer science. Courses with this number have only freshman/sophomore prerequisites, excluding CS 243 and CS 312."
+CS 444 - Robotics,4,"A project-based introduction to robotic systems and software that controls them, including gearing, mechanics, Al control systems, and problem solving with robots."
+CS 480 - Advanced Topics in Computing,1-3,Advanced topics in computer science.
+CS 480L - Advanced Topics in Computing,1-2,Advanced topics in computer science.
+CS 482 - Internship,1-4,"Supervised experience in business, governmental, or service agencies, matching theory with practice."
+CS 499 - Directed Study,1-4,Individual study on selected topics. Open to advanced students with consent of faculty sponsor and Department approval required.
+GSP 318 - Geospatial Programming I,3,"Introduction to programming for geospatial students. Covers problem decomposition, control structures, simple data structures, testing, and documentation, using the Python programming language and geospatial-oriented examples."
+PHYX 316 - Electronic Instrumentation and Control Systems,4,Design/build electronic instruments. Direct interfacing of computers.

@@ -1,0 +1,13 @@
+title,units,description
+CHEM 109 - General Chemistry I,5,"Fundamental concepts: chemical foundations, stoichiometry, chemical reactions, gases, thermochemistry, atomic theory, bonding, liquids, solutions. For students in science, engineering, and related majors."
+CHEM 110 - General Chemistry II,5,"Fundamental concepts: kinetics; equilibrium; acids and bases; acid-base, solubility, and complex ion equilibria; entropy and free energy; electrochemistry; qualitative analysis. For students in science, engineering, and related majors."
+MATH 107 - Introduction to Linear Algebra,3,"Euclidean spaces, matrices and matrix arithmetic, solving systems of equations, and eigenvalues and eigenvectors. Emphasis on applications and use of computation."
+MATH 109 - Calculus I,4,"Limits, continuity, derivatives, integrals, and their applications."
+MATH 110 - Calculus II,4,"Logarithmic and exponential functions, inverse trigonometric functions, techniques of integration, infinite sequences and series, conic sections, polar coordinates."
+MATH 210 - Calculus III,4,Vectors; parametric equations; 3-dimensional analytic geometry; vector- valued functions; partial derivatives; multiple integrals; introduction to line integrals.
+PHYX 109 - General Physics A: Mechanics,4,"Calculus-based, for science/engineering students."
+"PHYX 210 - General Physics B: Thermodynamics, Waves and Optics",4,"Calculus-based, for science/ engineering students."
+"PHYX 211 - General Physics C: Electricity, Magnetism",4,"Calculus-based, for science/ engineering students."
+PHYX 315 - Introduction to Electronics and Electronic Instrumentation,3,"Devices and circuits, both analog and digital, in science instrumentation. Construct amplifiers and digital circuits."
+PHYX 320 - Modern Physics,3,"Atomic, solid state, nuclear, and particle physics."
+PHYX 340 - Mathematical and Computational Methods,2,"Numerical, symbolic and graphical programming and simulations, mathematical applications important to physicists."

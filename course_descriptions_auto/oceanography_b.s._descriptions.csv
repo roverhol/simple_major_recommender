@@ -1,0 +1,27 @@
+title,units,description
+BIOL 105 - Principles of Biology,4,"Fundamental processes of life. Structure and function of cells, genetics, evolution, and ecology."
+CHEM 109 - General Chemistry I,5,"Fundamental concepts: chemical foundations, stoichiometry, chemical reactions, gases, thermochemistry, atomic theory, bonding, liquids, solutions. For students in science, engineering, and related majors."
+CHEM 110 - General Chemistry II,5,"Fundamental concepts: kinetics; equilibrium; acids and bases; acid-base, solubility, and complex ion equilibria; entropy and free energy; electrochemistry; qualitative analysis. For students in science, engineering, and related majors."
+GEOL 109 - General Geology,4,"Physical geology. Origin and constitution of the earth, internal and external processes that determine crustal and surficial features, and methods in investigating and interpreting earth history."
+OCN 109 - General Oceanography,3,"Extent of the oceans; chemical nature of sea water; causes/effects of currents, tides, and waves; animal and plant life in the sea; features of the ocean floor."
+OCN 109L - General Oceanography Laboratory,1,"Introductory laboratory activities to develop understanding of fundamental concepts from geological, chemical, physical, and biological oceanography and the inter-relationship between those concepts."
+OCN 260 - Sampling Techniques and Field Studies,1,"Introductory course for majors. Biological, chemical, geological, and physical oceanographic methods of sampling and analysis. Shipboard procedures and navigation."
+OCN 310 - Biological Oceanography,4,"Physical, chemical, and biological factors characterizing the marine environment, including factors controlling plant and animal populations. Methods of sampling identification and analysis."
+OCN 320 - Physical Oceanography,4,Physical properties and processes in seas: theory of distribution of variables; current determination; waves and tides.
+OCN 330 - Chemical Oceanography,4,Composition of seawater. Distribution and cycling of important major and minor chemical species throughout the oceans. Marine analytical chemistry.
+OCN 340 - Geological Oceanography,4,Classification/origin of major topographic features on ocean floor. First order plate tectonic theory. Recent marine sediments and sedimentary processes.
+OCN 370 - Library Research and Report Writing Seminar,2,Access oceanographic literature and write reports.
+OCN 420 - Oceans and Climate,3,"Examines the role that oceans play in mediating global climate. Detailed exploration of ocean carbon cycle, consequences of climate change on ocean ecosystems, ocean-related climate feedback loops, and predictions of oceans of the future."
+OCN 485 - Undergraduate Seminar,1,Study literature to prepare oral scientific reports.
+OCN 495W - Field Cruise I,3,Develop a research proposal. Conduct research on extended cruise. Use oceanographic techniques and theory on-board ship.
+OCN 496 - Field Cruise II,2,Process oceanographic samples and analyze research data. Prepare a final cruise report.
+MATH 109 - Calculus I,4,"Limits, continuity, derivatives, integrals, and their applications."
+MATH 110 - Calculus II,4,"Logarithmic and exponential functions, inverse trigonometric functions, techniques of integration, infinite sequences and series, conic sections, polar coordinates."
+MATH 210 - Calculus III,4,Vectors; parametric equations; 3-dimensional analytic geometry; vector- valued functions; partial derivatives; multiple integrals; introduction to line integrals.
+PHYX 109 - General Physics A: Mechanics,4,"Calculus-based, for science/engineering students."
+"PHYX 210 - General Physics B: Thermodynamics, Waves and Optics",4,"Calculus-based, for science/ engineering students."
+MATH 105 - Calculus for the Biological Sciences and Natural Resources,3,"Differential and integral calculus. Apply to biological sciences, including exponential growth and decay."
+MATH 215 - Multivariate Calculus for the Biological Sciences and Natural Resources,3,"Differential equations, partial derivatives, double integrals, and curve fitting techniques; vectors; applications."
+PHYX 106 - College Physics: Mechanics and Heat,4,"Non-Calculus, for science majors. Mechanics, fluids, heat, sound."
+PHYX 107 - College Physics: Electromagnetism and Modern Physics,4,"Non-Calculus, for science majors. Geometric optics, electricity, magnetism, electromagnetic waves, AC circuits, physical optics, relativity."
+STAT 109 - Introductory Biostatistics,4,"Descriptive statistics, probability, random variables, discrete and continuous distributions, confidence intervals, contingency tests, regression and correlation, tests of hypothesis, analysis of variance. Emphasis: methods and applications used in the biological and natural resource sciences."
