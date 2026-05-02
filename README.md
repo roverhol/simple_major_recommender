@@ -17,7 +17,7 @@ This repository is intended for instructors who want a concrete, end-to-end assi
 | `TUTORIAL_content_based_major_recommender.md` | Step-by-step walkthrough of the baseline pipeline (VS Code + Python). |
 | `PART1_INSTRUCTIONS.md` – `PART3_REPORT.md` | Example multi-part assignment sequence (Versions A/B/C, evaluation, report). |
 | `Screenshot_VS_Code_terminal.png` | Example of running commands in the terminal. |
-| `supplemental_lecture_lab_materials/` | Optional drafts (Labs 1–5, lecture intro on text clustering, study-group mini-project Labs 4–5). |
+| `supplemental_lecture_lab_materials/` | Optional drafts (Labs 1–5, lecture activities, study-group mini-project Labs 4–5). |
 
 ## Quick start
 
