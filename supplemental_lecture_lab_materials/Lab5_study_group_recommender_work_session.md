@@ -1,4 +1,4 @@
-# DATA 322 Lab 5: Study Group Recommender Work Session
+# Lab 5: Study group recommender — work session
 
 ## Purpose
 

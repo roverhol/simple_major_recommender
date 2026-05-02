@@ -1,4 +1,4 @@
-# DATA 322 Lab 1: Data Wrangling and Plots Learning Outcomes
+# Lab 1: Data wrangling and plots — learning outcomes
 ## Learning Outcomes
 
 By the end of Lab 1, students should be able to:

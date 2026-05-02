@@ -1,4 +1,4 @@
-# DATA 322 Lab 4: Mini-Project - Building a Study Group Recommender
+# Lab 4: Mini-project — building a study group recommender
 
 ## Teaching note
 

@@ -1,4 +1,4 @@
-# DATA 322 Lab 2: K-Means Learning Outcomes (Draft)
+# Lab 2: K-means — learning outcomes (draft)
 
 ## Learning Outcomes
 

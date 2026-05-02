@@ -1,4 +1,4 @@
-# DATA 322 Lab 3: Hierarchical Clustering and Dendrogram Learning Outcomes
+# Lab 3: Hierarchical clustering and dendrograms — learning outcomes
 
 ## Learning Outcomes
 
