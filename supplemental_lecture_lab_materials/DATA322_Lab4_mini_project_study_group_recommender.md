@@ -2,17 +2,17 @@
 
 ## Teaching note
 
-This lab serves as a bridge between clustering instruction and the full major recommender project. Students practice defining similarity in a realistic workflow without a heavy programming burden. They see how clustering decisions (feature design, scaling, linkage, cut choice) affect recommendations in a concrete setting.  The study-group recommender (this lab) compares students to other students and forms peer groups. While the major recommender (main project)matches a student to a small set of majors.
+This lab serves as a bridge between clustering instruction and the full major recommender project. Students practice defining similarity in a realistic workflow without a heavy programming burden. They see how clustering decisions (feature design, scaling, linkage, cut choice) affect recommendations in a concrete setting. The study-group recommender (this lab) compares students to other students and forms peer groups. The major recommender (main project) matches a student to a small set of majors.
 
 ## Overview
 
-Suppose there is a class of 100 students who have a midterm coming up. You are tasked with building a study group recommender to help match student with good study partners. You'll be given one 30 minutes session in which to explain your methodology, collect data and distribute recommendations. The goal of Labs 4 and 5 is to think through and build recommender and presentation for this day.  We'll try the finished project on testing day.
+Suppose there is a class of 100 students who have a midterm coming up. You are tasked with building a study group recommender to help match students with good study partners. You'll be given one 30-minute session in which to explain your methodology, collect data, and distribute recommendations. The goal of Labs 4 and 5 is to think through and build the recommender and presentation for this day. We'll try the finished project on testing day.
 
 In this lab, you'll collaborate with your classmates to design, implement, and test a study group recommender system using hierarchical clustering.
 
 Teams will decide what data to collect, define similarity between students, cluster students using hierarchical clustering, and recommend study groups. Emphasis is on teamwork, modeling decisions, and communication, not just code.
 
-I'll provide you with a Google Forms, Google Sheets, and sample code notebook so you can focus on the non-technical ascepts of building a recommender.
+I'll provide you with a Google Form, Google Sheets, and a sample code notebook so you can focus on the non-technical aspects of building a recommender.
 
 
 ## Final Graded Products
@@ -34,7 +34,7 @@ Three teams of four students each:
 
 ### Team 2: Distance and Clustering
 
-- Define how disimility between two students is measured.
+- Define how dissimilarity between two students is measured.
 - Justify any feature scaling, weighting, or transformations.
 - Choose and explain a linkage method.
 - Produce code to perform hierarchical clustering and generate a dendrogram (Jupyter Notebook).
@@ -68,7 +68,7 @@ Expected artifacts before testing week:
 - Tidy data storage
 - Working code to cluster, create a dendrogram, and cut the dendrogram
 - A way to share group assignments with students
-- Draft explanation of disimilarity definition and linkage choice
+- Draft explanation of dissimilarity definition and linkage choice
 - Draft slide deck outline
 
 Each team should have at least one concrete artifact ready by the checkpoint date.
