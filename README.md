@@ -27,7 +27,7 @@ Remap weeks to your term; numbers below are one possible calendar. I teach a 15 
 | 5 | `supplemental_lecture_lab_materials/Lab5_study_group_recommender_work_session.md` | Lab 5 — teamwork on the mini-project from Lab 4 |
 | 5 | `supplemental_lecture_lab_materials/lecture_recommender_ethics_transparency_learning_outcomes.md` | Lecture — History of and Ethcial Considerations in Recommender Systems, before Lab 6  |
 | 6 | `supplemental_lecture_lab_materials/Lab6_evaluation_design_preference_data.md` | Lab 6 — evaluation design for the major recommender, before Part 1 |
-| 6 | `supplemental_lecture_lab_materials/lecture_class_selection_evaluation_metrics.md` | Lecture — whole class ratifies metrics from Lab 6 (**required before Part 1**) |
+| 6 | `supplemental_lecture_lab_materials/lecture_class_selection_evaluation_metrics.md` | Lecture — whole class ratifies metrics from Lab 6, before Part 1 |
 | 7 | `project/student_assignments/TUTORIAL_content_based_major_recommender.md` | Demostrate the sample recommender in lab then assign part 1 of the project|
 | 7-8 | `project/student_assignments/PART1_INSTRUCTIONS.md` | Project Part 1: verify the provided code works, implement a minor change and evaluate |
 | 9-10 | `project/student_assignments/PART2_INSTRUCTIONS.md` | Project Part 2 — Obtain a new dataset, make two minor changes and evaluate |
@@ -59,7 +59,7 @@ Full NLTK setup and folder layout: **`project/student_assignments/TUTORIAL_conte
 
 ## Adopting at another campus
 
-- **Data:** Put your catalog CSVs in **`project/course_descriptions_auto/`** (format in the tutorial). Adapt **`project/code/webscrap.py`** or use staff exports. Respect copyright, robots.txt, and site terms; prefer official exports outside classroom demos.
+- **Data:** Put your catalog CSVs in **`project/course_descriptions_auto/`** (format in the tutorial). Adapt **`project/code/webscrap.py`** or use staff exports. Respect copyright, robots.txt, and site terms; prefer official exports outside classroom use.
 - **IRB / ethics:** Follow your institution’s rules for classroom activities and student-generated evaluation data.
 - **Assignments:** Customize **`project/student_assignments/PART1_INSTRUCTIONS.md`**–**`PART3_REPORT.md`**.
 - **Supplemental materials:** Optional; week order is in the **Teaching sequence** table above.
