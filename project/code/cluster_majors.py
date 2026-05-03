@@ -214,8 +214,8 @@ if __name__ == "__main__":
 
     # 5. Generate and Plot Dendrogram
     print(f"\nGenerating dendrogram plot...")
-    # Increase the height (second value) significantly for better label spacing
-    plt.figure(figsize=(15, 25)) # Adjusted from (15, 8) - Try tuning this height if needed
+    # Wide figure + right margin: orientation='right' puts long leaf labels on the right
+    plt.figure(figsize=(18, 25))
 
     try:
         dendrogram(
@@ -231,17 +231,15 @@ if __name__ == "__main__":
         plt.title(f'Hierarchical Clustering Dendrogram of Majors (Method: {LINKAGE_METHOD})')
         plt.xlabel(f'Distance (1 - Sørensen-Dice Similarity)')
         plt.ylabel('Major Program')
-        plt.tight_layout() # Adjust layout to prevent labels overlapping
-        # Add some padding specifically to the left to ensure labels aren't cut off
-        plt.subplots_adjust(left=0.3) # Increase left margin (adjust value 0.1 to 0.4 as needed)
+        plt.subplots_adjust(left=0.18, right=0.68)
 
         if found_threshold or optimal_threshold > 0:
              plt.axvline(x=optimal_threshold, color='r', linestyle='--',
                          label=f'Cluster Threshold ({num_clusters} clusters, max size <= {MAX_CLUSTER_SIZE})')
              plt.legend(loc='upper left')
 
-        # Save the plot
-        plt.savefig(OUTPUT_DENDROGRAM_PNG, dpi=300) # Save with high resolution
+        # Save the plot (bbox_inches='tight' so labels past the axes are not clipped)
+        plt.savefig(OUTPUT_DENDROGRAM_PNG, dpi=300, bbox_inches='tight', pad_inches=0.5)
         print(f"Dendrogram saved to: {OUTPUT_DENDROGRAM_PNG}")
 
         # Optional: Show the plot interactively
