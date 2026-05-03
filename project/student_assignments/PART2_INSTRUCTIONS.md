@@ -12,28 +12,28 @@ Important: this dataset must be newly sourced by you for Part 2. You may not cla
 
 Note: you may not need to do web scraping to obtain this data.  Webscraping is not part of the content of this course but if you are familar with it from another context, you are welcome to make use of your exisiting skill.  Alternatively if you are very interested in learning about webscraping, I'm happy to meet with you during my office hours or point you to a good resource.
 
-You may choose one of the options below, or propose your own dataset if it is clearly relevant to students considering Cal Poly Humboldt majors.
+You may choose one of the options below, or propose your own dataset if it is clearly relevant to students considering a major at our university.
 
 #### Reasonable dataset options (pick one, or propose your own)
 
-- Option 1: Cal Poly Humboldt Website
-  - Examples: additional catalog sections, program learning outcomes, program requirements, course lists, department careers pages, faculty/research blurbs (public pages only and not data I have already scraped and given you).
+- Option 1: Your institution’s website
+  - Examples: additional catalog sections, program learning outcomes, program requirements, course lists, department careers pages, faculty or research blurbs (public pages only; do not reuse text files that were already bundled in the starter repository unless your instructor says otherwise).
 
 - Option 2: Public career data
   - Examples: O*NET occupation descriptions (tasks/skills/knowledge) and/or BLS career outlook/pay/location info.
   - `https://www.onetonline.org/`
   - `https://www.bls.gov/emp/data/skills-data.htm`
   - `https://www.bls.gov/opub/mlr/2024/article/a-new-data-product-for-occupational-skills.htm`
-  - For this option, you must create a clear mapping (e.g., `major_to_occupations.csv`) from each major to a small set of relevant occupations or skill set. Note that the Cal Poly website does have some job titles suggested for each of our majors.
+  - For this option, you must create a clear mapping (e.g., `major_to_occupations.csv`) from each major to a small set of relevant occupations or skill categories. Many universities list sample career titles or pathways per major on public program pages.
 
-- Option 3: Student-facing university documents
-  - Example: public syllabi.
+- Option 3: Student-facing institutional documents
+  - Example: public syllabi or advising handouts.
   
 #### Proposing your own dataset
 
 You can use a dataset not on this list if you meet these criteria:
 
-- Major relevance: it adds meaningful signal about Cal Poly Humboldt majors (skills, topics, careers, courses, etc.).
+- Major relevance: it adds meaningful signal about majors in your dataset (skills, topics, careers, courses, etc.).
 - Program-level alignment: you can aggregate it into one representation per major (text or features) so the recommender can compare majors.
 - Ethical and legal: public/allowed data only; follow robots/terms; rate-limit; cite sources; no private data.
 - Not pre-bundled: the key dataset for your major change is not already in the provided starter folder.
@@ -42,7 +42,7 @@ To turn in for Part 2 (as a draft section for the report you will write in Part 
 
 - Where the data came from (URLs or dataset name)
 - How you obtained it
-- How you linked it to majors at Cal Poly Humboldt
+- How you linked it to majors in your catalog data
 - Enough detail so someone else could follow your process and obtain the same data and mapping to majors
 
 ### 2. Two small changes — algorithm or parameters
@@ -53,8 +53,8 @@ Examples tied to this codebase:
 
 - Distance/similarity: change how pairwise similarity is computed (e.g., keep Dice vs. try cosine on weighted vectors, Jaccard on word sets, etc.) or adjust how similarity maps to distance.
 - Clustering: change linkage method (`ward`, `average`, `complete`, `single`, and so on), maximum cluster size (`MAX_CLUSTER_SIZE`), or how the cut threshold is chosen.
-- Text processing: significantly adjust stopword lists or tokenization in `calculate_word_frequencies.py` (or equivalent) so it affects all programs consistently.
-- Exploration UI: change `TOP_N_WORDS` or the scoring used in `explore_clusters_interactive.py` when summarizing branches.
+- Text processing: significantly adjust stopword lists or tokenization in **`../code/calculate_word_frequencies.py`** (or equivalent) so it affects all programs consistently.
+- Exploration UI: change `TOP_N_WORDS` or the scoring used in **`code/explore_clusters_interactive.py`** when summarizing branches.
 
 Pick two that you can explain in 1-2 sentences each: what you changed and why you thought it might help.
 
@@ -63,8 +63,8 @@ Pick two that you can explain in 1-2 sentences each: what you changed and why yo
 After your edits, you should still be able to:
 
 1. Build or revise word-frequency CSVs (as required by your data change).
-2. Run clustering (e.g., `cluster_majors.py`) to produce `major_similarity_matrix.csv`, `major_cluster_assignments.csv`, `optimal_threshold.txt`, `major_linkage.pkl`, and the dendrogram image.
-3. Run the interactive recommender (e.g., `explore_clusters_interactive.py`) using the saved linkage and threshold.
+2. Run clustering (e.g., **`../code/cluster_majors.py`**) to produce `major_similarity_matrix.csv`, `major_cluster_assignments.csv`, `optimal_threshold.txt`, `major_linkage.pkl`, and the dendrogram image (these files are written under **`../`** — the `project/` folder).
+3. Run the interactive recommender (e.g., **`../code/explore_clusters_interactive.py`**) using the saved linkage and threshold.
 
 ## What to hand in
 
@@ -73,7 +73,7 @@ A short report, including:
 1. Draft of data collection method:
    - Where the data came from (URLs or dataset name)
    - How you obtained it
-   - How you linked it to majors at Cal Poly Humboldt
+   - How you linked it to majors in your catalog data
    - Enough detail so someone else could follow your process and obtain the same data and mapping to majors
 2. Version C changes: one paragraph on rationale for the major data change, plus brief notes for the two small algorithm/parameter changes.
 3. Result of your evaluation of Version C using roughly the same process and metrics from Part 1. Note your data perturbations will necessarily be different. Just try to do the same number of them.

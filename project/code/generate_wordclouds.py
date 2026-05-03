@@ -3,6 +3,9 @@
 #nltk.download('punkt') # Often
 
 import os
+
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+_PROJECT_ROOT = os.path.normpath(os.path.join(_SCRIPT_DIR, ".."))
 import pandas as pd
 import string
 import nltk
@@ -12,8 +15,8 @@ import matplotlib.pyplot as plt
 import re
 
 # --- Configuration ---
-INPUT_DIR = "course_descriptions_auto"  # Directory containing the CSV files
-OUTPUT_DIR = "word_clouds"             # Directory to save the generated word cloud images
+INPUT_DIR = os.path.join(_PROJECT_ROOT, "course_descriptions_auto")
+OUTPUT_DIR = os.path.join(_PROJECT_ROOT, "word_clouds")
 DESCRIPTION_COLUMN = "description"     # Name of the column containing text
 # --- End Configuration ---
 

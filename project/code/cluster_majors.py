@@ -8,15 +8,18 @@ import matplotlib.pyplot as plt
 import csv
 import pickle
 
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+_PROJECT_ROOT = os.path.normpath(os.path.join(_SCRIPT_DIR, ".."))
+
 # --- Configuration ---
-FREQUENCY_DIR = "word_frequencies"  # Directory containing the word frequency CSV files
-OUTPUT_SIMILARITY_CSV = "major_similarity_matrix.csv" # File to save the similarity matrix
-OUTPUT_DENDROGRAM_PNG = "major_clusters_dendrogram.png" # File to save the dendrogram plot
-OUTPUT_CLUSTERS_CSV = "major_cluster_assignments.csv" # File to save the final cluster assignments
+FREQUENCY_DIR = os.path.join(_PROJECT_ROOT, "word_frequencies")
+OUTPUT_SIMILARITY_CSV = os.path.join(_PROJECT_ROOT, "major_similarity_matrix.csv")
+OUTPUT_DENDROGRAM_PNG = os.path.join(_PROJECT_ROOT, "major_clusters_dendrogram.png")
+OUTPUT_CLUSTERS_CSV = os.path.join(_PROJECT_ROOT, "major_cluster_assignments.csv")
 LINKAGE_METHOD = 'ward' # Clustering method ('ward', 'average', 'complete', 'single', etc.)
 MAX_CLUSTER_SIZE = 10   # Maximum number of majors allowed in a single cluster
-LINKAGE_FILE = "major_linkage.pkl" # File to save the linkage matrix
-OPTIMAL_THRESHOLD_FILE = "optimal_threshold.txt" # File to save the threshold
+LINKAGE_FILE = os.path.join(_PROJECT_ROOT, "major_linkage.pkl")
+OPTIMAL_THRESHOLD_FILE = os.path.join(_PROJECT_ROOT, "optimal_threshold.txt")
 # --- End Configuration ---
 
 def load_frequency_data(directory):

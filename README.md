@@ -2,50 +2,67 @@
 
 Starter code and sample data for a project-based introduction to unsupervised learning in which students build a content-based academic major recommender from public course catalog information. The pipeline uses word frequencies, pairwise similarity (Sørensen–Dice), hierarchical clustering, and a small interactive explorer.
 
-This repository is intended for instructors who want a concrete, end-to-end assignment students can relate to (choosing a major) while wrestling with evaluation without labels, design trade-offs, and ethics/transparency.
+This repository is intended for instructors who want a concrete, end-to-end assignment students can relate to (choosing a major) while wrestling with the challegence of learning without labels, design trade-offs, and ethical and transparency considerations.
 
-## What is bundled here
+**What’s in this repo:** `project/` holds a student-facing pipeline (code, data, generated outputs) and `project/student_assignments/` (Parts 1–3, tutorial, screenshot). The `supplemental_lecture_lab_materials/`** is optional material for the teacher.  Everything else you need to get started as a teacher is in the quick start and suggested teaching sequence sections below.
 
 | Path | Purpose |
 |------|--------|
-| `code/` | Python scripts: frequencies, optional word clouds, clustering, interactive exploration, and optional scrapers (`webscrap.py`, `plo_scraper.py`). |
-| `course_descriptions_auto/` | **Sample input:** one CSV per major with course descriptions (Cal Poly Humboldt catalog–derived). Replace or extend with your own institution’s **allowed** public text. |
-| `word_frequencies/` | **Sample output** of `calculate_word_frequencies.py` (regenerable). |
-| `word_clouds/` | **Sample output** of `generate_wordclouds.py` (optional step). |
-| Root `major_*.csv`, `major_*.png`, `major_linkage.pkl`, `optimal_threshold.txt` | **Sample clustering outputs** from `cluster_majors.py` (regenerable). |
-| `program_learning_outcomes.csv` | Example supplementary program text (optional for extensions). |
-| `TUTORIAL_content_based_major_recommender.md` | Step-by-step walkthrough of the baseline pipeline (VS Code + Python). |
-| `PART1_INSTRUCTIONS.md` – `PART3_REPORT.md` | Example multi-part assignment sequence (Versions A/B/C, evaluation, report). |
-| `Screenshot_VS_Code_terminal.png` | Example of running commands in the terminal. |
-| `supplemental_lecture_lab_materials/` | Optional drafts (Labs 1–5, lecture activities, study-group mini-project Labs 4–5). |
+| `project/` | Student major-recommender bundle. |
+| `supplemental_lecture_lab_materials/` | Optional instructor-facing learning outcomes, activities, and readings for labs and lectures. |
+
+## Suggested teaching sequence
+
+Remap weeks to your term; numbers below are one possible calendar. I teach a 15 week course that meets for three 50 minute lectures and one one hour and 40 minute lab each week.  I use the lecture time of weeks 1-6 for unsupervised learning and lecture of weeks 7-15 for supervised learning.  There is some overlap for the students as they work on applying what they've learned about unsupervised techniques to design a major recommender while I introduce new concepts in supervised learning in weeks 7-11. I keep the workload in lab and homework for supervised learning relatively low turning this time period. I generally have a midterm at the end of Week 6 or beginning of Week 7 on unsupervised learning and a final exam that covers supervised learning after Week 15. 
+
+| Week | File | Comment |
+|------|------|--------|
+| 1 | `supplemental_lecture_lab_materials/Lab1_data_wrangling_plots_learning_outcomes.md` | Lab 1 — review of data wrangling and plot creation |
+| 2 | `supplemental_lecture_lab_materials/Lab2_kmeans_learning_outcomes.md` | Lab 2 — k-means |
+| 3 | `supplemental_lecture_lab_materials/Lab3_hclustering_learning_outcomes.md` | Lab 3 — hierarchical clustering and dendrograms |
+| 3 | `supplemental_lecture_lab_materials/lecture_distance_similarity_metrics_toy_examples_learning_outcomes.md` | Lecture — options for computing similarity/dissimilarity |
+| 4 | `supplemental_lecture_lab_materials/lecture_recommender_systems_history_modern_context_learning_outcomes.md` | Lecture — introduction to recommender systems, before Lab 4|
+| 4 | `supplemental_lecture_lab_materials/Lab4_mini_project_study_group_recommender.md` | Lab 4 — study-group recommender mini-project |
+| 5 | `supplemental_lecture_lab_materials/lecture_intro_text_data_clustering_activity.md` | Lecture — introduction to clustering text data|
+| 5 | `supplemental_lecture_lab_materials/Lab5_study_group_recommender_work_session.md` | Lab 5 — teamwork on the mini-project from Lab 4 |
+| 5 | `supplemental_lecture_lab_materials/lecture_recommender_ethics_transparency_learning_outcomes.md` | Lecture — History of and Ethcial Considerations in Recommender Systems, before Lab 6  |
+| 6 | `supplemental_lecture_lab_materials/Lab6_evaluation_design_preference_data.md` | Lab 6 — evaluation design for the major recommender, before Part 1 |
+| 6 | `supplemental_lecture_lab_materials/lecture_class_selection_evaluation_metrics.md` | Lecture — whole class ratifies metrics from Lab 6 (**required before Part 1**) |
+| 7 | `project/student_assignments/TUTORIAL_content_based_major_recommender.md` | Demostrate the sample recommender in lab then assign part 1 of the project|
+| 7-8 | `project/student_assignments/PART1_INSTRUCTIONS.md` | Project Part 1: verify the provided code works, implement a minor change and evaluate |
+| 9-10 | `project/student_assignments/PART2_INSTRUCTIONS.md` | Project Part 2 — Obtain a new dataset, make two minor changes and evaluate |
+| 11 | `project/student_assignments/PART3_REPORT.md` | Project Part 3 — Describe your major recommender |
+| 12-15 | (not provided here) | Project 2 is planning, implementing and reporting a supervised method |
 
 ## Quick start
 
-1. **Python 3** and a terminal at the **repository root** (the folder that contains `code/` and `course_descriptions_auto/`).
+1. **Python** and a terminal at the **repository root** (the folder that contains **`project/`**).
 
-2. Install dependencies (from the tutorial):
+2. Install dependencies:
 
    ```bash
    pip install pandas nltk scipy matplotlib wordcloud selenium webdriver-manager
    ```
 
-3. Download NLTK data (once), then run the pipeline in order:
+3. Download NLTK data (once; see the tutorial for `nltk.download` lines).
+
+4. Run the pipeline from the repository root:
 
    ```bash
-   python code/calculate_word_frequencies.py
-   python code/generate_wordclouds.py    # optional
-   python code/cluster_majors.py
-   python code/explore_clusters_interactive.py
+   python project/code/calculate_word_frequencies.py
+   python project/code/generate_wordclouds.py    # optional
+   python project/code/cluster_majors.py
+   python project/code/explore_clusters_interactive.py
    ```
 
-Full detail, NLTK setup, and folder layout: **`TUTORIAL_content_based_major_recommender.md`**.
+Full NLTK setup and folder layout: **`project/student_assignments/TUTORIAL_content_based_major_recommender.md`**.
 
 ## Adopting at another campus
 
-- **Data:** Supply your own CSVs under `course_descriptions_auto/` (see tutorial for format). You can either modify my web scraping code to produce these CSVs or obtain them from a staff member with internal access to your university's course catalog database. Respect copyright, robots.txt, and site terms if you scrape; outside of the context of a classroom demostration, it is better to use official exports or APIs where available.
-- **IRB / ethics:** Follow your institution’s rules for classroom activities and any use of student-generated evaluation data.
-- **Assignments:** Edit `PART1_INSTRUCTIONS.md`–`PART3_REPORT.md` for your own course needs.
-- **Supplemental materials:** See `supplemental_lecture_lab_materials/` for optional lab drafts (Labs 1–5), a text-clustering lecture handout, and the study-group mini-project (Labs 4–5); adapt or ignore depending on your syllabus.
+- **Data:** Put your catalog CSVs in **`project/course_descriptions_auto/`** (format in the tutorial). Adapt **`project/code/webscrap.py`** or use staff exports. Respect copyright, robots.txt, and site terms; prefer official exports outside classroom demos.
+- **IRB / ethics:** Follow your institution’s rules for classroom activities and student-generated evaluation data.
+- **Assignments:** Customize **`project/student_assignments/PART1_INSTRUCTIONS.md`**–**`PART3_REPORT.md`**.
+- **Supplemental materials:** Optional; week order is in the **Teaching sequence** table above.
 
 
 ## License

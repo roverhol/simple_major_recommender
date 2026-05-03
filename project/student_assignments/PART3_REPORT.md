@@ -18,7 +18,7 @@ Use and refine your Part 2 draft. Briefly explain:
 
 - Where the new data came from (URL(s) or dataset name)
 - How you obtained it
-- How you linked it to Cal Poly Humboldt majors
+- How you linked it to majors in your catalog data
 - Enough detail so another student could reproduce your data and mapping process
 
 ### 2) Version C changes and evaluation results
@@ -33,7 +33,7 @@ When possible, compare A vs B vs C clearly so trade-offs are visible.
 
 ### 3) Ethical and transparency reflection
 
-Return to the transparency/responsibility work from Lab XX and explain:
+Return to the transparency and responsibility discussion from your course (for example, evaluation-design or ethics materials your instructor assigned—some draft learning outcomes live under **`../../supplemental_lecture_lab_materials/`**) and explain:
 
 - Why your Version C data choices are reasonable
 - What trade-offs your approach makes 

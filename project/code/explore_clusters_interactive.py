@@ -4,11 +4,14 @@ import csv
 from collections import Counter, defaultdict
 import pickle # To load the linkage matrix easily
 
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+_PROJECT_ROOT = os.path.normpath(os.path.join(_SCRIPT_DIR, ".."))
+
 # --- Configuration ---
-FREQUENCY_DIR = "word_frequencies"  # Directory containing the word frequency CSV files
-LINKAGE_FILE = "major_linkage.pkl" # File where the linkage matrix will be saved/loaded from
-CLUSTER_ASSIGNMENTS_CSV = "major_cluster_assignments.csv" # To load final cluster info (optional but good)
-OPTIMAL_THRESHOLD_FILE = "optimal_threshold.txt" # File to save/load the threshold
+FREQUENCY_DIR = os.path.join(_PROJECT_ROOT, "word_frequencies")
+LINKAGE_FILE = os.path.join(_PROJECT_ROOT, "major_linkage.pkl")
+CLUSTER_ASSIGNMENTS_CSV = os.path.join(_PROJECT_ROOT, "major_cluster_assignments.csv")
+OPTIMAL_THRESHOLD_FILE = os.path.join(_PROJECT_ROOT, "optimal_threshold.txt")
 TOP_N_WORDS = 7 # Number of representative words to show per branch
 # --- End Configuration ---
 

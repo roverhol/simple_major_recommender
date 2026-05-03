@@ -7,9 +7,13 @@ import re
 from collections import Counter # Efficiently counts item frequencies
 import csv
 
+# Project root: parent of this `code/` folder (contains `course_descriptions_auto/`, `word_frequencies/`, etc.)
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+_PROJECT_ROOT = os.path.normpath(os.path.join(_SCRIPT_DIR, ".."))
+
 # --- Configuration ---
-INPUT_DIR = "course_descriptions_auto"  # Directory containing the input CSV files
-OUTPUT_DIR = "word_frequencies"        # Directory to save the frequency CSV files
+INPUT_DIR = os.path.join(_PROJECT_ROOT, "course_descriptions_auto")
+OUTPUT_DIR = os.path.join(_PROJECT_ROOT, "word_frequencies")
 DESCRIPTION_COLUMN = "description"     # Name of the column containing text
 CUSTOM_STOPWORDS = {"course", "major", "program", "students", "student", "will", "also"} # Words to remove in addition to standard stopwords
 # --- End Configuration ---

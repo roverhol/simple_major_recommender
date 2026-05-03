@@ -13,6 +13,9 @@ import os
 from urllib.parse import urljoin # Needed to construct absolute URLs
 import random
 
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+_PROJECT_ROOT = os.path.normpath(os.path.join(_SCRIPT_DIR, ".."))
+
 # --- Helper function to create a webdriver instance ---
 def create_driver():
     chrome_options = Options()
@@ -451,7 +454,7 @@ def save_data_to_csv(data, filename):
 if __name__ == "__main__":
     # --- Configuration ---
     MAJORS_LIST_URL = "https://catalog.humboldt.edu/content.php?catoid=12&navoid=2007" # Make sure this is correct
-    output_dir = "course_descriptions_auto" # The directory where previous results were saved
+    output_dir = os.path.join(_PROJECT_ROOT, "course_descriptions_auto")
 
     # Optional: Re-enable headless mode if desired
     # In create_driver function, UNCOMMENT: chrome_options.add_argument("--headless")

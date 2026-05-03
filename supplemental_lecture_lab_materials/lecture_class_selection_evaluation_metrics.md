@@ -6,7 +6,7 @@ Convert team-proposed metrics from Lab 6 (where each team proposes a structural 
 
 ## Inputs
 
-- Team submissions containing proposed:
+- **Team submissions from Lab 6 Part 2**, each containing proposed:
   - structural metric,
   - human-centered metric,
   - exposure/ethical metric,
@@ -21,5 +21,5 @@ Convert team-proposed metrics from Lab 6 (where each team proposes a structural 
 
 ## Output (evaluation contract)
 
-- One shared metric set used by all students in Part 1 Versions A, B, and C.
+- One shared metric set used by all students for Versions A, B, and C of the major recommender project.
 - Shared understanding of what counts as evidence of improvement.

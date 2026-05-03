@@ -14,6 +14,9 @@ import os
 from urllib.parse import urljoin
 import random
 
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+_PROJECT_ROOT = os.path.normpath(os.path.join(_SCRIPT_DIR, ".."))
+
 # --- Helper function to create a webdriver instance ---
 # (Same as in webscrap.py)
 def create_driver():
@@ -225,7 +228,7 @@ def save_outcomes_to_csv(all_outcomes_data, filename):
 if __name__ == "__main__":
     # --- Configuration ---
     MAJORS_LIST_URL = "https://catalog.humboldt.edu/content.php?catoid=12&navoid=2007" # Make sure this is correct
-    OUTPUT_CSV_FILE = "program_learning_outcomes.csv" # Name of the single output file
+    OUTPUT_CSV_FILE = os.path.join(_PROJECT_ROOT, "program_learning_outcomes.csv")
     # --- End Configuration ---
 
     print("--- Starting Program Learning Outcome Scraper ---")
