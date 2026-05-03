@@ -2,4 +2,4 @@
 
 Optional labs and lectures to support teaching the major recommender. Student assignments and tutorial: **`../project/student_assignments/`**.
 
-**Suggested week order** (labs, lectures, project parts, tutorial): **Teaching sequence** in the repository root **`README.md`**.
+**Suggested week order** (labs, lectures, project parts, tutorial): teaching sequence in the repository root **`README.md`**.
