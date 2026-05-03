@@ -2,7 +2,15 @@
 
 Starter code and sample data for a project-based introduction to unsupervised learning in which students build a content-based academic major recommender from public course catalog information. The pipeline uses word frequencies, pairwise similarity (Sørensen–Dice), hierarchical clustering, and a small interactive explorer.
 
-This repository is intended for instructors who want a concrete, end-to-end assignment students can relate to (choosing a major) while wrestling with the challegence of learning without labels, design trade-offs, and ethical and transparency considerations.
+This repository is intended for instructors who want a concrete, end-to-end assignment students can relate to (choosing a major) while wrestling with the challenge of learning without labels, design trade-offs, and ethical and transparency considerations.
+
+## Sample output
+
+<p align="center">
+<img src="project/major_clusters_dendrogram.png" alt="Hierarchical clustering dendrogram of majors using their course descriptions (Ward linkage with Sørensen–Dice disimilary)" width="900">
+</p>
+
+<p align="center"><em>Sample dendrogram from the bundled catalog data, produced by <code>project/code/cluster_majors.py</code>. The red dashed line marks a distance threshold so no cluster exceeds ten majors.</em></p>
 
 **What’s in this repo:** `project/` holds a student-facing pipeline (code, data, generated outputs) and `project/student_assignments/` (Parts 1–3, tutorial, screenshot). The **`supplemental_lecture_lab_materials/`** folder is optional material for the teacher.  Everything else you need to get started as a teacher is in **Adapting this project to your campus** and the **Suggested teaching sequence** below.
 
