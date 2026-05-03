@@ -65,7 +65,7 @@ Follow these steps:
 
 4. Edit the student-facing assignments under `project/student_assignments/`. Check your institution’s IRB if you plan to have students collect data from other people for evaluation purposes.
 
-5. Build your own teaching sequence using the suggested teaching sequence table above as a guide, together with your textbook and the optional [`supplemental_lecture_lab_materials/`](supplemental_lecture_lab_materials/) as needed.
+5. Build your own teaching plan using the suggested teaching sequence table above as a guide, together with your textbook and the optional [`supplemental_lecture_lab_materials/`](supplemental_lecture_lab_materials/) as needed.
 
 
 ## License
