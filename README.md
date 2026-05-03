@@ -63,7 +63,7 @@ Follow these steps:
 
 3. Update the rest of the code as needed for your data, paths, or any pipeline changes.
 
-4. Edit the student-facing assignments under `project/student_assignments/`. Check your institution’s IRB if you plan to have student collect data from other people for evaluation purposes.
+4. Edit the student-facing assignments under `project/student_assignments/`. Check your institution’s IRB if you plan to have students collect data from other people for evaluation purposes.
 
 5. Build your own teaching sequence using the suggested teaching sequence table above as a guide, together with your textbook and the optional [`supplemental_lecture_lab_materials/`](supplemental_lecture_lab_materials/) as needed.
 
