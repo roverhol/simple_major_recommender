@@ -36,7 +36,7 @@ Remap weeks to your term; numbers below are one possible calendar. I teach a 15 
 
 ## Quick start
 
-1. **Python** and a terminal at the **repository root** (the folder that contains **`project/`**).
+1. Use python and a terminal at the repository root (the folder that contains **`project/`**).
 
 2. Install dependencies:
 
@@ -55,7 +55,7 @@ Remap weeks to your term; numbers below are one possible calendar. I teach a 15 
    python project/code/explore_clusters_interactive.py
    ```
 
-Full NLTK setup and folder layout: **`project/student_assignments/TUTORIAL_content_based_major_recommender.md`**.
+Refer to **`project/student_assignments/TUTORIAL_content_based_major_recommender.md`** for the full details of the sample recommender.
 
 ## Adopting at another campus
 
