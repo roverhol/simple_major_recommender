@@ -33,20 +33,20 @@ Remap weeks to your term; numbers below are one possible calendar. I teach a 15 
 | 4 | [Lab 4](supplemental_lecture_lab_materials/Lab4_mini_project_study_group_recommender.md) | Lab 4 — study-group recommender mini-project |
 | 5 | [Lecture (text clustering)](supplemental_lecture_lab_materials/lecture_intro_text_data_clustering_activity.md) | Lecture — introduction to clustering text data|
 | 5 | [Lab 5](supplemental_lecture_lab_materials/Lab5_study_group_recommender_work_session.md) | Lab 5 — teamwork on the mini-project from Lab 4 |
-| 5 | [Lecture (ethics)](supplemental_lecture_lab_materials/lecture_recommender_ethics_transparency_learning_outcomes.md) | Lecture — History of and Ethcial Considerations in Recommender Systems, before Lab 6  |
+| 5 | [Lecture (ethics)](supplemental_lecture_lab_materials/lecture_recommender_ethics_transparency_learning_outcomes.md) | Lecture — History of and Ethical Considerations in Recommender Systems, before Lab 6  |
 | 6 | [Lab 6](supplemental_lecture_lab_materials/Lab6_evaluation_design_preference_data.md) | Lab 6 — evaluation design for the major recommender, before Part 1 |
-| 6 | [Lecture (metrics)](supplemental_lecture_lab_materials/lecture_class_selection_evaluation_metrics.md) | Lecture — whole class ratifies metrics from Lab 6, before Part 1 |
+| 6 | [Lecture (finalize metrics)](supplemental_lecture_lab_materials/lecture_class_selection_evaluation_metrics.md) | Lecture — whole class selects metrics from Lab 6, before Part 1 |
 | 7 | [Tutorial](project/student_assignments/TUTORIAL_content_based_major_recommender.md) | Demostrate the sample recommender in lab then assign part 1 of the project|
 | 7-8 | [Part 1](project/student_assignments/PART1_INSTRUCTIONS.md) | Project Part 1: verify the provided code works, implement a minor change and evaluate |
 | 9-10 | [Part 2](project/student_assignments/PART2_INSTRUCTIONS.md) | Project Part 2 — Obtain a new dataset, make two minor changes and evaluate |
 | 11 | [Part 3](project/student_assignments/PART3_REPORT.md) | Project Part 3 — Describe your major recommender |
-| 12-15 | — | Project 2 is planning, implementing and reporting a supervised method |
+| 12-15 | - | Project 2 is planning, implementing and reporting a supervised method |
 
 ## Quick start to adapting this project to your campus and class
 
 Follow these steps:
 
-1. Try the sample recommender on your system. Work from the repository root (the folder that contains `project/`). Read `project/student_assignments/TUTORIAL_content_based_major_recommender.md` for setup and folder layout. Install dependencies, download NLTK data as in the tutorial, then run:
+1. Try the sample recommender on your system. Work from the repository root (the folder that contains [`project/`](project/)). Read [the tutorial](project/student_assignments/TUTORIAL_content_based_major_recommender.md) for setup and folder layout. Install dependencies, download NLTK data as in the tutorial, then run:
 
    ```bash
    pip install pandas nltk scipy matplotlib wordcloud selenium webdriver-manager
@@ -65,7 +65,7 @@ Follow these steps:
 
 4. Edit the student-facing assignments under `project/student_assignments/`. Check your institution’s IRB if you plan to have student collect data from other people for evaluation purposes.
 
-5. Build your own teaching sequence using the suggested teaching sequence table above as a guide, together with your textbook and the optional `supplemental_lecture_lab_materials/` as needed.
+5. Build your own teaching sequence using the suggested teaching sequence table above as a guide, together with your textbook and the optional [`supplemental_lecture_lab_materials/`](supplemental_lecture_lab_materials/) as needed.
 
 
 ## License
