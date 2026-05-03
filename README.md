@@ -21,7 +21,7 @@ This repository is intended for instructors who want a concrete, end-to-end assi
 
 ## Suggested teaching sequence
 
-Remap weeks to your term; numbers below are one possible calendar. I teach a 15 week course that meets for three 50 minute lectures and one one hour and 40 minute lab each week.  I use the lecture time of weeks 1-6 for unsupervised learning and lecture of weeks 7-15 for supervised learning.  There is some overlap for the students as they work on applying what they've learned about unsupervised techniques to design a major recommender while I introduce new concepts in supervised learning in weeks 7-11. I keep the workload in lab and homework for supervised learning relatively low turning this time period. I generally have a midterm at the end of Week 6 or beginning of Week 7 on unsupervised learning and a final exam that covers supervised learning after Week 15. 
+I teach a 15 week course that meets for three 50 minute lectures and one one hour and 40 minute lab each week.  I use the lecture time of weeks 1-6 for unsupervised learning and lecture of weeks 7-15 for supervised learning.  There is some overlap for the students as they work on applying what they've learned about unsupervised techniques to design a major recommender while I introduce new concepts in supervised learning in weeks 7-11. I keep the workload in lab and homework for supervised learning relatively low turning this time period. I generally have a midterm at the end of Week 6 or beginning of Week 7 on unsupervised learning and a final exam that covers supervised learning after Week 15. 
 
 | Week | Material | Comment |
 |------|----------|--------|
