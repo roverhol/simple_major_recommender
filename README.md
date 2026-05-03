@@ -4,7 +4,7 @@ Starter code and sample data for a project-based introduction to unsupervised le
 
 This repository is intended for instructors who want a concrete, end-to-end assignment students can relate to (choosing a major) while wrestling with the challegence of learning without labels, design trade-offs, and ethical and transparency considerations.
 
-**What’s in this repo:** `project/` holds a student-facing pipeline (code, data, generated outputs) and `project/student_assignments/` (Parts 1–3, tutorial, screenshot). The `supplemental_lecture_lab_materials/`** is optional material for the teacher.  Everything else you need to get started as a teacher is in the quick start and suggested teaching sequence sections below.
+**What’s in this repo:** `project/` holds a student-facing pipeline (code, data, generated outputs) and `project/student_assignments/` (Parts 1–3, tutorial, screenshot). The **`supplemental_lecture_lab_materials/`** folder is optional material for the teacher.  Everything else you need to get started as a teacher is in **Adapting this project to your campus** and the **Suggested teaching sequence** below.
 
 | Path | Purpose |
 |------|--------|
@@ -34,19 +34,15 @@ Remap weeks to your term; numbers below are one possible calendar. I teach a 15 
 | 11 | `project/student_assignments/PART3_REPORT.md` | Project Part 3 — Describe your major recommender |
 | 12-15 | (not provided here) | Project 2 is planning, implementing and reporting a supervised method |
 
-## Quick start
+## Quick start to adapting this project to your campus and class
 
-1. Use python and a terminal at the repository root (the folder that contains **`project/`**).
+Follow these steps:
 
-2. Install dependencies:
+1. Try the sample recommender on your system. Work from the repository root (the folder that contains `project/`). Read `project/student_assignments/TUTORIAL_content_based_major_recommender.md` for setup and folder layout. Install dependencies, download NLTK data as in the tutorial, then run:
 
    ```bash
    pip install pandas nltk scipy matplotlib wordcloud selenium webdriver-manager
    ```
-
-3. Download NLTK data (once; see the tutorial for `nltk.download` lines).
-
-4. Run the pipeline from the repository root:
 
    ```bash
    python project/code/calculate_word_frequencies.py
@@ -55,14 +51,13 @@ Remap weeks to your term; numbers below are one possible calendar. I teach a 15 
    python project/code/explore_clusters_interactive.py
    ```
 
-Refer to **`project/student_assignments/TUTORIAL_content_based_major_recommender.md`** for the full details of the sample recommender.
+2. Update the catalog CSVs for your institution. Place your files in `project/course_descriptions_auto/` using the format described in the tutorial. Obtain data by adapting `project/code/webscrap.py` or by asking a staff member with internal access for an export. Respect copyright, robots.txt, and site terms.
 
-## Adopting at another campus
+3. Update the rest of the code as needed for your data, paths, or any pipeline changes.
 
-- **Data:** Put your catalog CSVs in **`project/course_descriptions_auto/`** (format in the tutorial). Adapt **`project/code/webscrap.py`** or use staff exports. Respect copyright, robots.txt, and site terms; prefer official exports outside classroom use.
-- **IRB / ethics:** Follow your institution’s rules for classroom activities and student-generated evaluation data.
-- **Assignments:** Customize **`project/student_assignments/PART1_INSTRUCTIONS.md`**–**`PART3_REPORT.md`**.
-- **Supplemental materials:** Optional; week order is in the **Teaching sequence** table above.
+4. Edit the student-facing assignments under `project/student_assignments/`. Check your institution’s IRB if you plan to have student collect data from other people for evaluation purposes.
+
+5. Build your own teaching sequence using the sggested teaching sequence table above as a guide, together with your textbook and the optional `supplemental_lecture_lab_materials/` as needed.
 
 
 ## License
