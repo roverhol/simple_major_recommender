@@ -23,24 +23,24 @@ This repository is intended for instructors who want a concrete, end-to-end assi
 
 Remap weeks to your term; numbers below are one possible calendar. I teach a 15 week course that meets for three 50 minute lectures and one one hour and 40 minute lab each week.  I use the lecture time of weeks 1-6 for unsupervised learning and lecture of weeks 7-15 for supervised learning.  There is some overlap for the students as they work on applying what they've learned about unsupervised techniques to design a major recommender while I introduce new concepts in supervised learning in weeks 7-11. I keep the workload in lab and homework for supervised learning relatively low turning this time period. I generally have a midterm at the end of Week 6 or beginning of Week 7 on unsupervised learning and a final exam that covers supervised learning after Week 15. 
 
-| Week | File | Comment |
-|------|------|--------|
-| 1 | `supplemental_lecture_lab_materials/Lab1_data_wrangling_plots_learning_outcomes.md` | Lab 1 — review of data wrangling and plot creation |
-| 2 | `supplemental_lecture_lab_materials/Lab2_kmeans_learning_outcomes.md` | Lab 2 — k-means |
-| 3 | `supplemental_lecture_lab_materials/Lab3_hclustering_learning_outcomes.md` | Lab 3 — hierarchical clustering and dendrograms |
-| 3 | `supplemental_lecture_lab_materials/lecture_distance_similarity_metrics_toy_examples_learning_outcomes.md` | Lecture — options for computing similarity/dissimilarity |
-| 4 | `supplemental_lecture_lab_materials/lecture_recommender_systems_history_modern_context_learning_outcomes.md` | Lecture — introduction to recommender systems, before Lab 4|
-| 4 | `supplemental_lecture_lab_materials/Lab4_mini_project_study_group_recommender.md` | Lab 4 — study-group recommender mini-project |
-| 5 | `supplemental_lecture_lab_materials/lecture_intro_text_data_clustering_activity.md` | Lecture — introduction to clustering text data|
-| 5 | `supplemental_lecture_lab_materials/Lab5_study_group_recommender_work_session.md` | Lab 5 — teamwork on the mini-project from Lab 4 |
-| 5 | `supplemental_lecture_lab_materials/lecture_recommender_ethics_transparency_learning_outcomes.md` | Lecture — History of and Ethcial Considerations in Recommender Systems, before Lab 6  |
-| 6 | `supplemental_lecture_lab_materials/Lab6_evaluation_design_preference_data.md` | Lab 6 — evaluation design for the major recommender, before Part 1 |
-| 6 | `supplemental_lecture_lab_materials/lecture_class_selection_evaluation_metrics.md` | Lecture — whole class ratifies metrics from Lab 6, before Part 1 |
-| 7 | `project/student_assignments/TUTORIAL_content_based_major_recommender.md` | Demostrate the sample recommender in lab then assign part 1 of the project|
-| 7-8 | `project/student_assignments/PART1_INSTRUCTIONS.md` | Project Part 1: verify the provided code works, implement a minor change and evaluate |
-| 9-10 | `project/student_assignments/PART2_INSTRUCTIONS.md` | Project Part 2 — Obtain a new dataset, make two minor changes and evaluate |
-| 11 | `project/student_assignments/PART3_REPORT.md` | Project Part 3 — Describe your major recommender |
-| 12-15 | (not provided here) | Project 2 is planning, implementing and reporting a supervised method |
+| Week | Material | Comment |
+|------|----------|--------|
+| 1 | [Lab 1](supplemental_lecture_lab_materials/Lab1_data_wrangling_plots_learning_outcomes.md) | Lab 1 — review of data wrangling and plot creation |
+| 2 | [Lab 2](supplemental_lecture_lab_materials/Lab2_kmeans_learning_outcomes.md) | Lab 2 — k-means |
+| 3 | [Lab 3](supplemental_lecture_lab_materials/Lab3_hclustering_learning_outcomes.md) | Lab 3 — hierarchical clustering and dendrograms |
+| 3 | [Lecture (similarity)](supplemental_lecture_lab_materials/lecture_distance_similarity_metrics_toy_examples_learning_outcomes.md) | Lecture — options for computing similarity/dissimilarity |
+| 4 | [Lecture (recommenders)](supplemental_lecture_lab_materials/lecture_recommender_systems_history_modern_context_learning_outcomes.md) | Lecture — introduction to recommender systems, before Lab 4|
+| 4 | [Lab 4](supplemental_lecture_lab_materials/Lab4_mini_project_study_group_recommender.md) | Lab 4 — study-group recommender mini-project |
+| 5 | [Lecture (text clustering)](supplemental_lecture_lab_materials/lecture_intro_text_data_clustering_activity.md) | Lecture — introduction to clustering text data|
+| 5 | [Lab 5](supplemental_lecture_lab_materials/Lab5_study_group_recommender_work_session.md) | Lab 5 — teamwork on the mini-project from Lab 4 |
+| 5 | [Lecture (ethics)](supplemental_lecture_lab_materials/lecture_recommender_ethics_transparency_learning_outcomes.md) | Lecture — History of and Ethcial Considerations in Recommender Systems, before Lab 6  |
+| 6 | [Lab 6](supplemental_lecture_lab_materials/Lab6_evaluation_design_preference_data.md) | Lab 6 — evaluation design for the major recommender, before Part 1 |
+| 6 | [Lecture (metrics)](supplemental_lecture_lab_materials/lecture_class_selection_evaluation_metrics.md) | Lecture — whole class ratifies metrics from Lab 6, before Part 1 |
+| 7 | [Tutorial](project/student_assignments/TUTORIAL_content_based_major_recommender.md) | Demostrate the sample recommender in lab then assign part 1 of the project|
+| 7-8 | [Part 1](project/student_assignments/PART1_INSTRUCTIONS.md) | Project Part 1: verify the provided code works, implement a minor change and evaluate |
+| 9-10 | [Part 2](project/student_assignments/PART2_INSTRUCTIONS.md) | Project Part 2 — Obtain a new dataset, make two minor changes and evaluate |
+| 11 | [Part 3](project/student_assignments/PART3_REPORT.md) | Project Part 3 — Describe your major recommender |
+| 12-15 | — | Project 2 is planning, implementing and reporting a supervised method |
 
 ## Quick start to adapting this project to your campus and class
 
@@ -65,7 +65,7 @@ Follow these steps:
 
 4. Edit the student-facing assignments under `project/student_assignments/`. Check your institution’s IRB if you plan to have student collect data from other people for evaluation purposes.
 
-5. Build your own teaching sequence using the sggested teaching sequence table above as a guide, together with your textbook and the optional `supplemental_lecture_lab_materials/` as needed.
+5. Build your own teaching sequence using the suggested teaching sequence table above as a guide, together with your textbook and the optional `supplemental_lecture_lab_materials/` as needed.
 
 
 ## License
